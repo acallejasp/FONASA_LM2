@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+venv/
+env/
+
+# Credenciales y configuración sensible
+*.env
+config_local.py
+secrets.py
+
+# Archivos temporales Windows
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Datos grandes (ajusta según tu proyecto)
+*.csv
+*.parquet
+*.xlsx
+*.zip
